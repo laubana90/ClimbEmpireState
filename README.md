@@ -1,4 +1,4 @@
-# # Climbing the Empire State
+# Climbing the Empire State
 
 ## Introduction
 
