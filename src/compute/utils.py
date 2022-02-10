@@ -64,6 +64,9 @@ def generate_multiple_walks(n_pseudoexperiments, n_rolls):
 
     '''
     
+    if n_pseudoexperiments == 0:
+        return 0,0
+    
     # Generate the set of random walks
     all_walks = []
     for i in range(n_pseudoexperiments):

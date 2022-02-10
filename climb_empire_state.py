@@ -1,5 +1,5 @@
-from src.utils import simulate_random_walk, generate_multiple_walks, compute_probability
-from src.plots import plot_random_walk, histogram_endpoints
+from src.compute.utils import simulate_random_walk, generate_multiple_walks, compute_probability
+from src.visualisation.plots import plot_random_walk, histogram_endpoints
 from configparser import ConfigParser
 
 def main():
