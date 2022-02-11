@@ -102,6 +102,8 @@ def compute_probability(ends,n_pseudoexperiments, minimum):
         probability of reaching at least step 'minimum' after 'n_rolls' dice rolls
 
     '''
+    if n_pseudoexperiments == 0:
+        return 0.0
     probability = (np.count_nonzero(ends >= minimum)/n_pseudoexperiments)*100
     
     return probability

@@ -65,7 +65,7 @@ def histogram_endpoints(ends, probability, minimum):
 
     '''
     __, ax = plt.subplots()
-    plt.hist(ends, bins=20)
+    plt.hist(ends, bins=30)
     
     # Make the plot readable
     plt.xlabel("Final step")
