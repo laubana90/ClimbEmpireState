@@ -1,4 +1,5 @@
 [![Build Status](https://app.travis-ci.com/laubana90/ClimbEmpireState.svg?branch=main)](https://app.travis-ci.com/laubana90/ClimbEmpireState)
+[![codecov](https://codecov.io/gh/laubana90/ClimbEmpireState/branch/main/graph/badge.svg?token=SHVVQUPIEH)](https://codecov.io/gh/laubana90/ClimbEmpireState)
 
 # Climbing the Empire State
 
