@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/laubana90/ClimbEmpireState.svg?branch=main)](https://app.travis-ci.com/laubana90/ClimbEmpireState)
+
 # Climbing the Empire State
 
 ## Introduction
