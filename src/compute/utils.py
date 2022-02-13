@@ -105,5 +105,5 @@ def compute_probability(ends,n_pseudoexperiments, minimum):
     if n_pseudoexperiments == 0:
         return 0.0
     probability = (np.count_nonzero(ends >= minimum)/n_pseudoexperiments)*100
-    
+    print("Probability of reaching step {0} is: {1}".format(minimum, probability))    
     return probability
