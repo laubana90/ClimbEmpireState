@@ -14,7 +14,7 @@ def plot_random_walk(random_walk, minimum):
 
     '''
     
-    plt.plot(random_walk)
+    fig = plt.plot(random_walk)
     
     # Make the plot readable
     plt.xlabel("Number of dice rolls")
@@ -26,31 +26,6 @@ def plot_random_walk(random_walk, minimum):
     # Save the figure
     create_dir('figures')
     plt.savefig('figures/random_walk.png')
-    
-def plot_multiple_random_walks(all_walks_np_t, minimum):
-    '''
-    Create multiple lines plot from the array that contains the several random walks
-    
-    Parameters
-    ----------
-    all_walks_np_t: 2d-numpy array
-      Each element corresponds to one complete random walk
-    minimum: int
-      Minimum step to reach at the end
-
-    '''
-    
-    plt.plot(all_walks_np_t)
-    
-    # Make the plot readable
-    plt.xlabel("Number of dice rolls")
-    plt.ylabel("Position")
-    plt.title("Random walk")
-    plt.axhline(minimum, color='Gray', linestyle='--', linewidth=0.7)
-    
-    # Save the figure
-    create_dir('figures')
-    plt.savefig('figures/multiple_random_walks.png')
     
 def histogram_endpoints(ends, probability, minimum):
     '''
