@@ -2,6 +2,7 @@ language: python
 python:
   - "3.9"
 install: 
+  - pip install matplotlib
   - pip install pytest-cov codecov # Install packages for code coverage report
 script:
   - pytest --cov=src tests 
